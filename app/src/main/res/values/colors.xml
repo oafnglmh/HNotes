@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- ================= BASE ================= -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- ================= BRAND ================= -->
+    <color name="pink">#F88379</color>
+    <color name="red">#C13B34</color>
+
+    <color name="pink_dark">#F4A7A3</color>
+    <color name="red_dark">#E05A4F</color>
+
+    <!-- ================= LIGHT ================= -->
+    <!-- Primary -->
+    <color name="hnotes_primary">@color/pink</color>
+    <color name="hnotes_on_primary">@color/white</color>
+
+    <color name="hnotes_primary_container">#FFDAD6</color>
+    <color name="hnotes_on_primary_container">#3B0704</color>
+
+    <!-- Secondary -->
+    <color name="hnotes_secondary">@color/red</color>
+    <color name="hnotes_on_secondary">@color/white</color>
+
+    <color name="hnotes_secondary_container">#FFDAD6</color>
+    <color name="hnotes_on_secondary_container">#410002</color>
+
+    <!-- Background / Surface -->
+    <color name="hnotes_background">@color/white</color>
+    <color name="hnotes_surface">@color/white</color>
+    <color name="hnotes_on_surface">@color/black</color>
+
+    <!-- ================= DARK ================= -->
+    <!-- Primary -->
+    <color name="hnotes_primary_dark">@color/pink_dark</color>
+    <color name="hnotes_on_primary_dark">#3B0704</color>
+
+    <color name="hnotes_primary_container_dark">#5C1410</color>
+    <color name="hnotes_on_primary_container_dark">#FFDAD6</color>
+
+    <!-- Secondary -->
+    <color name="hnotes_secondary_dark">@color/red_dark</color>
+    <color name="hnotes_on_secondary_dark">#410002</color>
+
+    <color name="hnotes_secondary_container_dark">#7A1C16</color>
+    <color name="hnotes_on_secondary_container_dark">#FFDAD6</color>
+
+    <!-- Background / Surface -->
+    <color name="hnotes_background_dark">#121212</color>
+    <color name="hnotes_surface_dark">#121212</color>
+    <color name="hnotes_on_surface_dark">#EDEDED</color>
+
 </resources>

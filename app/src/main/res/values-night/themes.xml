@@ -1,7 +1,29 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.HNotes" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+    <!-- Base Dark Theme -->
+    <style name="Base.Theme.HNotes" parent="Theme.Material3.Dark.NoActionBar">
+
+        <!-- Primary -->
+        <item name="colorPrimary">@color/hnotes_primary_dark</item>
+        <item name="colorOnPrimary">@color/hnotes_on_primary_dark</item>
+        <item name="colorPrimaryContainer">@color/hnotes_primary_container_dark</item>
+        <item name="colorOnPrimaryContainer">@color/hnotes_on_primary_container_dark</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/hnotes_secondary_dark</item>
+        <item name="colorOnSecondary">@color/hnotes_on_secondary_dark</item>
+        <item name="colorSecondaryContainer">@color/hnotes_secondary_container_dark</item>
+        <item name="colorOnSecondaryContainer">@color/hnotes_on_secondary_container_dark</item>
+
+        <!-- Background & Surface -->
+        <item name="android:colorBackground">@color/hnotes_background_dark</item>
+        <item name="colorSurface">@color/hnotes_surface_dark</item>
+        <item name="colorOnSurface">@color/hnotes_on_surface_dark</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/hnotes_background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
     </style>
+
 </resources>

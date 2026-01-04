@@ -1,9 +1,32 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.HNotes" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <!-- Base Light Theme -->
+    <style name="Base.Theme.HNotes" parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/hnotes_primary</item>
+        <item name="colorOnPrimary">@color/hnotes_on_primary</item>
+        <item name="colorPrimaryContainer">@color/hnotes_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/hnotes_on_primary_container</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/hnotes_secondary</item>
+        <item name="colorOnSecondary">@color/hnotes_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/hnotes_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/hnotes_on_secondary_container</item>
+
+        <!-- Background & surface -->
+        <item name="android:colorBackground">@color/hnotes_background</item>
+        <item name="colorSurface">@color/hnotes_surface</item>
+        <item name="colorOnSurface">@color/hnotes_on_surface</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/hnotes_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+
     </style>
 
+    <!-- App Theme -->
     <style name="Theme.HNotes" parent="Base.Theme.HNotes" />
+
 </resources>
